@@ -1,3 +1,6 @@
+//autor:diego zambrana salas
+//funcion tolower
+//15/1/2024
 #include <iostream>
 #include <cctype> // Necesario para tolower
 using namespace std;
