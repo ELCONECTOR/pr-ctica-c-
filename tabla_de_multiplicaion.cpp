@@ -13,15 +13,15 @@ using namespace std;
 int main() {
 	int numero;
 	
-	// Mensaje para solicitar al usuario que ingrese un n?mero
+	// Mensaje para solicitar al usuario que ingrese un numero
 	cout << " Tabla de Multiplicar\n";
 	cout << "Ingrese el numero para realizar la tabla: ";
 	cin >> numero;
 	
-	// Mostrar la tabla de multiplicar del n?mero ingresado
+	// Mostrar la tabla de multiplicar del numero ingresado
 	cout << "Tabla de multiplicar del " << numero << ":\n";
 	for (int i = 1; i <= 10; ++i) {
-		// Mostrar cada multiplicaci?n en una l?nea
+		// Mostrar cada multiplicacion en una linea
 		cout << numero << "x" << i << "=" << (numero * i) << "\n";
 	}
 	
